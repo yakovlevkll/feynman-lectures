@@ -1,0 +1,17 @@
+{
+  "/ru/": [
+    "/ru/home/",
+    {
+      "title": "Предисловие",
+      "children": ["/ru/pref/authors"]
+    },
+    {
+      "title": "Том I. Механика, излучение, тепло",
+      "children": [
+        "/ru/vol-1/01-atoms-in-motion",
+        "/ru/vol-1/02-basic-physics",
+        "/ru/vol-1/03-the-relation-of-physics-to-other-sciences"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "feynman-lectures",
+  "version": "0.0.1",
+  "description": "Feynman lectures on physics for every human being",
+  "repository": "git@github.com:yakovlevkll/feynman-lectures.git",
+  "author": "Kirill Yakovlev <yakovlev.kll@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "vuepress": "^1.0.2",
+    "vuepress-plugin-container": "^2.0.1",
+    "vuepress-plugin-export": "^0.2.0",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-reading-progress": "^1.0.7",
+    "vuepress-plugin-smooth-scroll": "^0.0.3"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:export": "vuepress export docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.48",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.48",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.48",
+    "@vuepress/plugin-nprogress": "^1.0.0-alpha.48",
+    "@vuepress/plugin-pwa": "^1.0.0-alpha.48",
+    "@vuepress/plugin-search": "^1.0.0-alpha.48"
+  }
+}
